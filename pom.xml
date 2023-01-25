@@ -14,7 +14,7 @@
 	<name>GroceryOrderWebApp</name>
 	<description>Order fake groceries</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
