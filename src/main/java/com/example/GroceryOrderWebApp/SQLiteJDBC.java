@@ -15,7 +15,7 @@ public class SQLiteJDBC {
 
             stmt = c.createStatement();
             String sql = "INSERT INTO GROCERY_LIST (ITEM, QUANTITY) " +
-                    String.format("VALUES ('%s', %d);", o.item(), o.quantity());
+                    String.format("VALUES ('%s', %d);", o.item, o.quantity);
 
             stmt.executeUpdate(sql);
 
